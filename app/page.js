@@ -1,8 +1,12 @@
-import Image from 'next/image'
-import { Home } from '@/components/Home/index'
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
-export default function Home() {
+
+export default function page() {
   return (
-  <Home />
+    <div>
+      <Header />
+      <Footer />
+    </div>
   )
 }
